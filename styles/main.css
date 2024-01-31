@@ -1,5 +1,7 @@
 html {
     background-color: #00539f;
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
   }
 
 body  {
@@ -11,12 +13,22 @@ body  {
 }
 
 h1 {
-    font-size: 60px;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
     text-align: center;
+    font-size: 50px;
   }
+
+h2 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    font-size: 30px;
+}
   
-  p,
-  li {
+p,li,a {
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
